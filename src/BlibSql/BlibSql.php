@@ -133,6 +133,7 @@ class BlibSql
      */
     public static function forceDateToSql(string $field, bool $presetNow = true, bool $isDateTime = false): string
     {
+        //TODO: add DateTime detector and convert
         $field = str_replace("/", "-", $field);
         if (strpos($field, 'T') !== false) {
             $field = str_replace('T', ' ', $field);
