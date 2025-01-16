@@ -1,0 +1,27 @@
+{
+  "name": "bruno/blibphp",
+  "description": "Blib is a useful helper for legacy projects",
+  "keywords": [
+    "blib",
+    "useful",
+    "sql",
+    "tools",
+    "helper"
+  ],
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Blib\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "brunojoao",
+      "email": "brunokataklysm@gmail.com.br"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.0.0"
+  }
+}
