@@ -38,9 +38,6 @@ The `changes` method compares two arrays (old and new) and returns the differenc
 ### Returns
 - **`array`**: A multidimensional array containing only the modified elements from `$new`.
 
-### Throws
-- **`\Exception`**: If the arrays do not have the same size.
-
 ### Usage Example
 
 ```php
