@@ -23,7 +23,7 @@ composer install
 The class `BlibArray` is located in the namespace `Blib\Array`.
 
 ```php
-use Blib\Array\BlibArray;
+use Blib\Arr\BlibArray;
 ```
 
 ## Method: `changes`
@@ -41,7 +41,7 @@ The `changes` method compares two arrays (old and new) and returns the differenc
 ### Usage Example
 
 ```php
-use Blib\Array\BlibArray;
+use Blib\Arr\BlibArray;
 
 $old = [
     "name" => "Bruno",
