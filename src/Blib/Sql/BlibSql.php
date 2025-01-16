@@ -140,7 +140,7 @@ class BlibSql
         }
         if ($isDateTime && strlen($field) < 19) {
             $l = strlen($field);
-            $c = $presetNow ? date("Y-m-d h:i:s") : date("Y-m-d 00:00:00");
+            $c = $presetNow ? date("Y-m-d H:i:s") : date("Y-m-d 00:00:00");
             $cut = substr($c, $l);
             $field .= $cut;
         }
