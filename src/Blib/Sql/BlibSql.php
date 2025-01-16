@@ -1,6 +1,6 @@
 <?php
 
-namespace Blib;
+namespace Blib\Sql;
 
 class BlibSql
 {
