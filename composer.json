@@ -11,7 +11,7 @@
   "type": "library",
   "autoload": {
     "psr-4": {
-      "Blib\\": "src/"
+      "Blib\\": "src/Blib"
     }
   },
   "authors": [
