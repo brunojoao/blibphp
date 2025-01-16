@@ -2,7 +2,7 @@
 
 namespace Blib;
 
-class Sql
+class BlibSql
 {
     public static function insert(string $table, array $data = []): array
     {
