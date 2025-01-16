@@ -142,7 +142,7 @@ Converts a date string to SQL format.
 
 - `string $field`: The date string to be converted.
 - `bool $presetNow` (optional): Determines whether the current date and time should be used to complete the string if it is incomplete. Default is true.
-- `bool $isDateTime` (optional): Determines whether the string should be treated as a date and time. If true, the function will ensure the string is in the complete date and time format. Default is false.
+- `bool $isDateTime` (optional): Determines whether the string should be treated as a date and time. If true, the function will ensure the string is in the complete date and time format. Default is true.
 
 **Returns**:
 

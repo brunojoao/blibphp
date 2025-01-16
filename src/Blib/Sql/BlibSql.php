@@ -131,7 +131,7 @@ class BlibSql
      *
      * @return string The converted date in SQL format (YYYY-MM-DD) or, if $isDateTime is true, in the complete SQL date and time format (YYYY-MM-DD HH:MM:SS).
      */
-    public static function forceDateToSql(string $field, bool $presetNow = true, bool $isDateTime = false): string
+    public static function forceDateToSql(string $field, bool $presetNow = true, bool $isDateTime = true): string
     {
         //TODO: add DateTime detector and convert
         $field = str_replace("/", "-", $field);
